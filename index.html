@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Company's Name</title>
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+      integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <!-- Page wrapper -->
+    <div class="container">
+      <!-- Navbar -->
+      <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="#start">Home</a>
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#service"
+                >Services<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#faq"
+                >Questions<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#consultation"
+                >Consultation<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#contact1"
+                >Contact<span class="sr-only">(current)</span></a
+              >
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <!-- <input class="form-control mr-sm-2" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="000-000-0000"
+            aria-label="Search"> -->
+            <div class="text-light mr-2">
+              <svg
+                width="1em"
+                height="1em"
+                viewBox="0 0 16 16"
+                class="bi bi-telephone"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+                />
+              </svg>
+              000-0000, 000-0000
+              <i class="fab fa-telegram-plane"></i>
+              <i class="fab fa-whatsapp"></i>
+              <i class="fab fa-viber"></i>
+              <i class="fab fa-facebook"></i>
+            </div>
+
+            <button class="btn btn-warning my-2 my-sm-0" type="button">
+              Call Me
+            </button>
+          </form>
+        </div>
+      </nav>
+
+      <!-- Start -->
+      <div class="jumbotron mt-0 mb-2" id="start">
+        <!-- Title -->
+        <h2 class="display-4">Company's Name</h2>
+        <p class="lead">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+          temporibus necessitatibus quaerat nisi deleniti? Aliquam laboriosam
+          aperiam quo quasi nam.
+        </p>
+        <hr class="my-4" />
+
+        <!-- Accordion -->
+        <div class="accordion" id="accordionExample">
+          <!-- Panel -->
+          <div class="card">
+            <div class="card-header" id="headingOne1">
+              <h2 class="mb-0">
+                <button
+                  class="btn btn-link btn-block text-left"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseOne1"
+                  aria-expanded="true"
+                  aria-controls="collapseOne1"
+                >
+                  <i class="far fa-arrow-alt-circle-right"></i> Lorem, ipsum
+                  dolor sit amet consectetur adipisicing elit. Expedita, magni.
+                </button>
+              </h2>
+            </div>
+            <div
+              id="collapseOne1"
+              class="collapse show"
+              aria-labelledby="headingOne1"
+              data-parent="#accordionExample"
+            >
+              <div class="card-body">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex
+                quidem, delectus placeat excepturi eligendi, quis perferendis
+                asperiores similique qui et, exercitationem iste nemo facilis
+                ullam quisquam voluptatibus! Error, sint quae.
+              </div>
+            </div>
+          </div>
+
+          <!-- Panel -->
+          <div class="card">
+            <div class="card-header" id="headingOne2">
+              <h2 class="mb-0">
+                <button
+                  class="btn btn-link btn-block text-left"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseOne2"
+                  aria-expanded="false"
+                  aria-controls="collapseOne2"
+                >
+                  <i class="far fa-arrow-alt-circle-right"></i> Lorem ipsum
+                  dolor, sit amet consectetur adipisicing elit. Mollitia, ipsum?
+                </button>
+              </h2>
+            </div>
+            <div
+              id="collapseOne2"
+              class="collapse"
+              aria-labelledby="headingOne2"
+              data-parent="#accordionExample"
+            >
+              <div class="card-body">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex
+                quidem, delectus placeat excepturi eligendi, quis perferendis
+                asperiores similique qui et, exercitationem iste nemo facilis
+                ullam quisquam voluptatibus! Error, sint quae.
+              </div>
+            </div>
+          </div>
+
+          <!-- Panel -->
+          <div class="card">
+            <div class="card-header" id="headingTwo3">
+              <h2 class="mb-0">
+                <button
+                  class="btn btn-link btn-block text-left collapsed"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseTwo3"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo3"
+                >
+                  <i class="far fa-arrow-alt-circle-right"></i> Lorem ipsum
+                  dolor sit amet consectetur, adipisicing elit. Ratione,
+                  dolorum.
+                </button>
+              </h2>
+            </div>
+            <div
+              id="collapseTwo3"
+              class="collapse"
+              aria-labelledby="headingTwo3"
+              data-parent="#accordionExample"
+            >
+              <div class="card-body">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex
+                quidem, delectus placeat excepturi eligendi, quis perferendis
+                asperiores similique qui et, exercitationem iste nemo facilis
+                ullam quisquam voluptatibus! Error, sint quae.
+              </div>
+            </div>
+          </div>
+
+          <!-- Panel -->
+          <div class="card">
+            <div class="card-header" id="headingTwo4">
+              <h2 class="mb-0">
+                <button
+                  class="btn btn-link btn-block text-left collapsed"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseTwo4"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo4"
+                >
+                  <i class="far fa-arrow-alt-circle-right"></i> Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Consectetur,
+                  eligendi.
+                </button>
+              </h2>
+            </div>
+            <div
+              id="collapseTwo4"
+              class="collapse"
+              aria-labelledby="headingTwo4"
+              data-parent="#accordionExample"
+            >
+              <div class="card-body">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex
+                quidem, delectus placeat excepturi eligendi, quis perferendis
+                asperiores similique qui et, exercitationem iste nemo facilis
+                ullam quisquam voluptatibus! Error, sint quae.
+              </div>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+        <!-- End of Accordion -->
+      </div>
+      <!-- End of Start -->
+
+      <!-- Service -->
+      <div class="jumbotron mb-2" id="service">
+        <h1 class="display-4" style="font-size: 3rem">Services</h1>
+
+        <hr class="my-4" />
+
+        <!-- Tabs -->
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <a
+              class="nav-link active"
+              id="pills-business-tab"
+              data-toggle="pill"
+              href="#pills-business"
+              role="tab"
+              aria-controls="pills-business"
+              aria-selected="true"
+              >Option-1</a
+            >
+          </li>
+          <li class="nav-item" role="presentation">
+            <a
+              class="nav-link"
+              id="pills-license-tab"
+              data-toggle="pill"
+              href="#pills-license"
+              role="tab"
+              aria-controls="pills-license"
+              aria-selected="false"
+              >Option-2</a
+            >
+          </li>
+
+          <li class="nav-item" role="presentation">
+            <a
+              class="nav-link"
+              id="pills-work-tab"
+              data-toggle="pill"
+              href="#pills-work"
+              role="tab"
+              aria-controls="pills-work"
+              aria-selected="false"
+              >Option-3</a
+            >
+          </li>
+        </ul>
+
+        <!-- Tabs content -->
+        <div class="tab-content" id="pills-tabContent">
+          <!-- Business/Option1 -->
+          <div
+            class="tab-pane fade show active"
+            id="pills-business"
+            role="tabpanel"
+            aria-labelledby="pills-business-tab"
+          >
+            <ul class="list-group">
+              <li class="list-group-item">
+                <h5>Lorem ipsum dolor sit.</h5>
+                <p class="lead">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolor, reiciendis.
+                </p>
+                <!-- More -->
+                <p>
+                  <a
+                    class="btn btn-outline-secondary btn-sm"
+                    data-toggle="collapse"
+                    href="#collapseExample11"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="collapseExample11"
+                  >
+                    Details
+                  </a>
+                </p>
+                <div class="collapse" id="collapseExample11">
+                  <div class="card card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life
+                    accusamus terry richardson ad squid. Nihil anim keffiyeh
+                    helvetica, craft beer labore wes anderson cred nesciunt
+                    sapiente ea proident.
+                    <br />
+                    <br />
+                    <button
+                      class="btn btn-warning btn-sm"
+                      style="width: 20%; min-width: 150px"
+                    >
+                      Consultation
+                    </button>
+                  </div>
+                </div>
+              </li>
+
+              <li class="list-group-item">
+                <h5>Lorem ipsum dolor sit.</h5>
+                <p class="lead">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Optio, quas?
+                </p>
+                <!-- More -->
+                <p>
+                  <a
+                    class="btn btn-outline-secondary btn-sm"
+                    data-toggle="collapse"
+                    href="#collapseExample21"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="collapseExample21"
+                  >
+                    Details
+                  </a>
+                </p>
+                <div class="collapse" id="collapseExample21">
+                  <div class="card card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life
+                    accusamus terry richardson ad squid. Nihil anim keffiyeh
+                    helvetica, craft beer labore wes anderson cred nesciunt
+                    sapiente ea proident.
+                  </div>
+                </div>
+              </li>
+
+              <li class="list-group-item">
+                <h5>Lorem ipsum dolor sit.</h5>
+                <p class="lead">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
+                  fugiat.
+                </p>
+                <!-- More -->
+                <p>
+                  <a
+                    class="btn btn-outline-secondary btn-sm"
+                    data-toggle="collapse"
+                    href="#collapseExample31"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="collapseExample31"
+                  >
+                    Details
+                  </a>
+                </p>
+                <div class="collapse" id="collapseExample31">
+                  <div class="card card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life
+                    accusamus terry richardson ad squid. Nihil anim keffiyeh
+                    helvetica, craft beer labore wes anderson cred nesciunt
+                    sapiente ea proident.
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- License/Option2 -->
+          <div
+            class="tab-pane fade"
+            id="pills-license"
+            role="tabpanel"
+            aria-labelledby="pills-license-tab"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+            dolorum velit reprehenderit non, harum saepe, atque illo similique
+            laborum numquam sed molestias fugit id voluptatum aperiam quasi nam?
+            Voluptatibus, eos minima, enim perferendis, a totam incidunt
+            molestiae laboriosam quod tempora placeat vel expedita ipsum ipsam
+            culpa dolores blanditiis inventore magnam repellendus voluptas
+            quibusdam amet. Similique totam, laborum quasi cum adipisci tenetur
+            fugit temporibus repudiandae quos, quo assumenda sit itaque nulla
+            iure voluptatibus aut, labore accusamus quas et dignissimos culpa
+            voluptas impedit. Ullam magni fugiat officia vel, impedit nihil id
+            tempore, placeat eveniet voluptates minus! Nisi ipsum reprehenderit
+            eveniet voluptates iusto?
+          </div>
+
+          <!-- Work/Option3 -->
+          <div
+            class="tab-pane fade"
+            id="pills-work"
+            role="tabpanel"
+            aria-labelledby="pills-work-tab"
+          >
+            <!-- Work tabs -->
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-dark"
+                  id="a1-tab"
+                  data-toggle="tab"
+                  href="#a1"
+                  role="tab"
+                  aria-controls="a1"
+                  aria-selected="true"
+                  >SubOption-1</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-dark"
+                  id="a2-tab"
+                  data-toggle="tab"
+                  href="#a2"
+                  role="tab"
+                  aria-controls="a2"
+                  aria-selected="false"
+                  >SubOption-2</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-dark"
+                  id="a3-tab"
+                  data-toggle="tab"
+                  href="#a3"
+                  role="tab"
+                  aria-controls="a3"
+                  aria-selected="false"
+                  >SubOption-3</a
+                >
+              </li>
+            </ul>
+            <!-- Work content -->
+            <div class="tab-content mt-4" id="myTabContent">
+              <div
+                class="tab-pane fade show active"
+                id="a1"
+                role="tabpanel"
+                aria-labelledby="a1-tab"
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                maiores earum aliquam, aperiam assumenda aliquid voluptatibus
+                doloribus inventore exercitationem adipisci soluta minus
+                pariatur, aspernatur sit! Commodi velit laboriosam itaque non?
+              </div>
+              <div
+                class="tab-pane fade"
+                id="a2"
+                role="tabpanel"
+                aria-labelledby="a2-tab"
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                ducimus nulla est deserunt, magni illum deleniti voluptatum
+                doloremque eligendi nobis amet. Eius facere enim fuga dolorum
+                possimus ullam natus id asperiores iure. Architecto, consectetur
+                eum?
+              </div>
+              <div
+                class="tab-pane fade"
+                id="a3"
+                role="tabpanel"
+                aria-labelledby="a3-tab"
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                ducimus nulla est deserunt, magni illum deleniti voluptatum
+                doloremque eligendi nobis amet. Eius facere enim fuga dolorum
+                possimus ullam natus id asperiores iure. Architecto, consectetur
+                eum?
+              </div>
+              <!--  -->
+            </div>
+            <!-- End of Work content -->
+          </div>
+          <!-- End of Work -->
+        </div>
+        <!-- End of Tabs content -->
+      </div>
+      <!-- End of Service -->
+
+      <!-- FAQ -->
+      <div class="jumbotron mb-2" id="faq">
+        <h1 class="display-4" style="font-size: 3rem">Qestions</h1>
+
+        <hr class="my-4" />
+
+        <!-- Accordion -->
+        <div id="accordion">
+          <!-- Panel -->
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button
+                  class="btn btn-link collapsed"
+                  data-toggle="collapse"
+                  data-target="#collapseOne"
+                  aria-expanded="false"
+                  aria-controls="collapseOne"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing?
+                </button>
+              </h5>
+            </div>
+            <div
+              id="collapseOne"
+              class="collapse"
+              aria-labelledby="headingOne"
+              data-parent="#accordion"
+            >
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life
+                accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                non cupidatat skateboard dolor brunch. Food truck quinoa
+                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua
+                put a bird on it squid single-origin coffee nulla assumenda
+                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
+                wes anderson cred nesciunt sapiente ea proident. Ad vegan
+                excepteur butcher vice lomo. Leggings occaecat craft beer
+                farm-to-table, raw denim aesthetic synth nesciunt you probably
+                haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <!-- Panel -->
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button
+                  class="btn btn-link collapsed"
+                  data-toggle="collapse"
+                  data-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  Lorem ipsum, dolor sit amet consectetur adipisicing?
+                </button>
+              </h5>
+            </div>
+            <div
+              id="collapseTwo"
+              class="collapse"
+              aria-labelledby="headingTwo"
+              data-parent="#accordion"
+            >
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life
+                accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                non cupidatat skateboard dolor brunch. Food truck quinoa
+                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua
+                put a bird on it squid single-origin coffee nulla assumenda
+                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
+                wes anderson cred nesciunt sapiente ea proident. Ad vegan
+                excepteur butcher vice lomo. Leggings occaecat craft beer
+                farm-to-table, raw denim aesthetic synth nesciunt you probably
+                haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <!-- Panel -->
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button
+                  class="btn btn-link collapsed"
+                  data-toggle="collapse"
+                  data-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipisicing?
+                </button>
+              </h5>
+            </div>
+            <div
+              id="collapseThree"
+              class="collapse"
+              aria-labelledby="headingThree"
+              data-parent="#accordion"
+            >
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life
+                accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                non cupidatat skateboard dolor brunch. Food truck quinoa
+                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua
+                put a bird on it squid single-origin coffee nulla assumenda
+                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
+                wes anderson cred nesciunt sapiente ea proident. Ad vegan
+                excepteur butcher vice lomo. Leggings occaecat craft beer
+                farm-to-table, raw denim aesthetic synth nesciunt you probably
+                haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End of accordion -->
+        <br />
+        <a class="btn btn-warning btn-lg" href="#" role="button"
+          >Ask Your Question</a
+        >
+      </div>
+
+      <!-- Consultation -->
+      <div class="jumbotron mb-2" id="consultation">
+        <h4 class="display-4" style="font-size: 3rem">Consultation</h4>
+        <p class="lead">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores,
+          voluptatum.
+        </p>
+        <hr class="my-4" />
+
+        <form>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Phone</label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="(000) 000-0000"
+            />
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">Option</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option></option>
+              <option>Option-1</option>
+              <option>Option-2</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">Servise</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option></option>
+              <option>Servise-1</option>
+              <option>Servise-2</option>
+              <option>Servise-3</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+          </div>
+          <a class="btn btn-primary btn-lg" href="#" role="button">Send</a>
+        </form>
+      </div>
+
+      <!-- Contact -->
+      <div class="jumbotron mb-2" id="contact1">
+        <h1 class="display-4" style="font-size: 3rem">Contacts</h1>
+
+        <hr class="my-4" />
+
+        <!-- Contact tabs -->
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item">
+            <a
+              class="nav-link active text-dark"
+              id="c1-tab"
+              data-toggle="tab"
+              href="#c1"
+              role="tab"
+              aria-controls="c1"
+              aria-selected="true"
+              >Messangers</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-dark"
+              id="c2-tab"
+              data-toggle="tab"
+              href="#c2"
+              role="tab"
+              aria-controls="c2"
+              aria-selected="false"
+              >Office</a
+            >
+          </li>
+        </ul>
+
+        <!-- Contact content -->
+        <div class="tab-content mt-4" id="myTabContent">
+          <div
+            class="tab-pane fade show active"
+            id="c1"
+            role="tabpanel"
+            aria-labelledby="c1-tab"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. At maiores
+            earum aliquam, aperiam assumenda aliquid voluptatibus doloribus
+            inventore exercitationem adipisci soluta minus pariatur, aspernatur
+            sit! Commodi velit laboriosam itaque non?
+          </div>
+          <div
+            class="tab-pane fade"
+            id="c2"
+            role="tabpanel"
+            aria-labelledby="c2-tab"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+            ducimus nulla est deserunt, magni illum deleniti voluptatum
+            doloremque eligendi nobis amet. Eius facere enim fuga dolorum
+            possimus ullam natus id asperiores iure. Architecto, consectetur
+            eum?
+          </div>
+        </div>
+
+        <br />
+        <a class="btn btn-warning btn-lg" href="#" role="button">Call Me</a>
+      </div>
+    </div>
+    <!-- End of container -->
+
+    <!-- JQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
